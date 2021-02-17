@@ -1,0 +1,44 @@
+.error{
+color:red;
+display: block;
+}
+.container{
+  max-width: 120% !important;
+  padding:0em !important
+}
+.App {
+  text-align: center;
+  margin:0px;
+  padding:0px
+}
+.table td, .table th{
+  text-align:center;
+}
+@media (max-width: 991px) {
+.work{
+  margin:2em 0em;
+}
+       .table th  {
+     font-size:10px;
+    width: 30px; 
+   /* padding: 0rem !important */
+}
+.table td{
+  font-size:10px !important; 
+    padding: 0rem !important
+}
+h1{
+  font-size:25px !important; 
+}
+/* .container {
+  width: 100% !important;
+  padding:0em !important;
+} */
+.table, .thead-light th {
+  font-size:10px !important; 
+   padding: 0rem !important
+      }
+  .table{
+   margin: 1em 0em !important;
+  }
+    }
