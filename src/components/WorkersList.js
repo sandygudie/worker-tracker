@@ -12,7 +12,7 @@ import moment from "moment"
         <td> {props.worker.duration}</td>
         <td> {moment(props.worker.date).format('DD/MM/YYYY')}</td>
         <td> 
-            <Link to = {"/edit/" + props.worker._id}>edit</Link> | <a href ="#" onClick={()=>{props.deleteWorker(props.worker._id)}}>delete</a>
+            <Link to = {"/edit/" + props.worker._id}>edit</Link> | <span className="stylespan" onClick={()=>{props.deleteWorker(props.worker._id)}}>delete</span>
         </td>
     </tr>
  )

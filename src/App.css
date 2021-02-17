@@ -42,3 +42,14 @@ h1{
    margin: 1em 0em !important;
   }
     }
+
+    .stylespan{
+    
+      color: #007bff;;
+    }
+    .stylespan:hover{
+      text-decoration: underline;
+      cursor: pointer;
+      color: blue;;
+
+    }
